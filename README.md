@@ -4,6 +4,7 @@ D-link DWA 181 driver for Linux kernel 5.0
 ## Already tested distro
 * Ubuntu 18.0.4 (4.15.0.0-20-generic)
 * Ubuntu 18.0.4 (5.0.0-37-generic)
+* Ubuntu 18.0.4 (5.3.0-26-generic)
 
 ## Installation
 ```bash
