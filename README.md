@@ -14,3 +14,7 @@ sudo dkms build -m rtl88x2bu -v 5.6.1
 sudo dkms install -m rtl88x2bu -v 5.6.1
 sudo modprobe 88x2bu
 ```
+## Remove
+```
+sudo dkms remove -m rtl88x2bu/5.6.1 --all
+```
