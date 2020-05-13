@@ -8,7 +8,8 @@ D-link DWA 181 driver for Linux kernel 5.0
 
 ## Installation
 ```bash
-sudo dkms add ./rtl88x2bu_dwa_181_driver
+cd ~/rtl88x2bu_dlink_dwa_181_driver
+sudo dkms add .
 sudo dkms build -m rtl88x2bu -v 5.6.1
 sudo dkms install -m rtl88x2bu -v 5.6.1
 sudo modprobe 88x2bu
